@@ -5,7 +5,8 @@ const MDXLayout = ({ children, source }) => {
   const { content, data } = matter(source);
   return (
     <article>
-      <h1>{data.title}</h1>
+      <h1>{data?.title}</h1>
+      <div>{content}</div>
 
       <div>{children}</div>
     </article>
