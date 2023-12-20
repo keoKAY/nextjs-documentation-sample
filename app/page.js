@@ -1,6 +1,5 @@
 import Image from "next/image";
-//import Introduction from "./documentations/introduction.mdx";
-//import GuideDocument from "../app/guidedocuments.js";
+import Introduction from "./docs/introduction.mdx";
 export default function Home() {
   return (
     <section>
